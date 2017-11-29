@@ -1,3 +1,4 @@
+Pour la navbar :
 Accueil
 Histoire
 Equipe
@@ -5,3 +6,9 @@ Partenaires
 Photo
 Media
 Contact
+
+Couleurs : vert, bleu, jeune
+Pour le bleu : #0960BD
+Pour le vert : #7FBA14
+Pour le jaune : #F0D80B
+Couleur du bateau : #2D4E79
