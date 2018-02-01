@@ -12,12 +12,56 @@
   <!--Bootstrap Carousel FULL Page-->
   <link rel="stylesheet" href="CSS/vendor/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="CSS/full-slider.css">
+  <!--Skeleton CSS-->
+  <link rel="stylesheet" href="CSS/skeleton.css">
+  <link rel="stylesheet" href="CSS/base.css">
+  <link rel="stylesheet" href="CSS/style.css">
 
   <!-- Favicon-->
   <link rel="shortcut icon " href="Images/icon_sailing.ico">
-  
+
+  <!-- JS files -->
+  <script async="" src="JS/analytics.js"></script>
+  <script type="text/javascript" src="JS/jquery-331.min.js"></script>
 </head>
 <body>
+  <nav class="fixed-nav-bar no-top-scroll">
+      <div class="nav-wrapper social-lang">
+          <!-- Logo -->
+          <div class="header-logo-wrap">
+              <a href="" class="logo"><img src="Images/logo.png" alt="" width="100" height="100"></a>
+          </div>
+          <ul class="share-items clearlist">
+              <li class="share-item"><a href="https://www.facebook.com/charentemaritimesailing/" class="share-button" target="_blank" style="height: 75px; line-height: 75px;"><i class="share-icon fa fa-facebook"></i></a></li>
+              <li class="share-item"><a href="https://twitter.com/CMsailing" class="share-button" target="_blank" style="height: 75px; line-height: 75px;"><i class="share-icon fa fa-twitter"></i></a></li>
+              <li class="share-item"><a href="https://www.instagram.com/charentemaritimesailing/" class="share-button" target="_blank" style="height: 75px; line-height: 75px;"><i class="share-icon fa fa-instagram"></i></a></li>
+          </ul>
+      </div>
+  </nav>
+  <!-- Navigation panel -->
+  <nav class="main-nav transparent stick-fixed stick-visible">
+      <div class="full-wrapper relative clearfix">
+          <!-- Mobile nav bars -->
+          <div class="mobile-nav" style="height: 75px; line-height: 75px; width: 75px;"><i class="fa fa-bars"></i></div>
+          <!-- Main Menu -->
+          <div class="nav-wrapper large-nav">
+              <ul class="clearlist">
+                  <!-- Menu With Sub -->
+                  <li><a href="Accueil.html" style="height: 75px; line-height: 75px;" class="active">Accueil</a></li>
+                  <li><a href="#" style="height: 75px; line-height: 75px;">Histoire</a></li>
+                  <li><a href="#" style="height: 75px; line-height: 75px;">Equipe</a></li>
+                  <li><a href="#" style="height: 75px; line-height: 75px;">Palmarès</a></li>
+                  <li><a href="#" style="height: 75px; line-height: 75px;">Partenaire</a></li>
+                  <li><a href="#" style="height: 75px; line-height: 75px;">Galerie</a></li>
+                  <li><a href="#" style="height: 75px; line-height: 75px;">Média</a></li>
+                  <li><a href="#" style="height: 75px; line-height: 75px;">Contact</a></li>
+               </li></ul>
+          </div>
+          <!-- End Main Menu -->
+      </div>
+  </nav>
+  <!-- End Navigation panel -->
+
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -28,24 +72,12 @@
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
         <div class="carousel-item active" style="background-image: url('Images/photo-groupe.png');opacity: 0.8">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>First Slide</h3>
-            <p>This is a description for the first slide.</p>
-          </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('Images/photo-equipe.png')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
-          </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
         <div class="carousel-item" style="background-image: url('Images/bateau1.png')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Third Slide</h3>
-            <p>This is a description for the third slide.</p>
-          </div>
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
