@@ -1507,7 +1507,7 @@ hr.black {
 }
 .nav-wrapper ul li a {
     font-size: 14px;
-    color: #ffffff;
+    color: #0960BD;
     /*letter-spacing: 2px;*/
     display: inline-block;
     font-weight: 600;
@@ -10580,10 +10580,10 @@ section.app-info-page{
     z-index: 99999 !important;
 }
 .active,.second-menu a:hover,.small-height .large-nav a.active{
-    color: #FECC00 !important;
+    color: #7FBA14 !important;
 }
 .nav-wrapper ul li .nav-sub li a.active{
-    color: #0095A5 !important;
+    color: #7FBA14 !important;
 }
 .sp-top-bottom200 {
     padding: 250px 0;

@@ -4,10 +4,10 @@
   background-repeat: no-repeat;
 }
 
-.nav-link {
-    color: #0960BD !important;
-}
-
 .item {
     opacity: 0.8;
+}
+
+#mycarousel  {
+  margin-top: 6.5%;
 }
